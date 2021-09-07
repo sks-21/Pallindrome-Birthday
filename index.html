@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Is your birhday Pallindrome ?</h1>
-<p>
-      <label for="input-bdate"></label>
-      <input type="date" id="input-bdate"/>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palindrome Birthday</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-heading">Is your Birthday Palindrome ?</div>
+  </nav>
+
+  <div class="div-container">
+    <p>
+      <label for="input-bdate">Enter your Birthdate</label>
+      <input type="date" id="input-bdate" />
     </p>
-      <button>Check</button>
-       
-      <div id="output"></div>
 
-    </main>
+    <p>
+      <button id="btn-check">Check</button>
+      <button id="btn-clear">Clear</button>
+    </p>
 
-    <script src="app.js"></script>
-  </body>
+
+    <div class="div-output" id="div-output"></div>
+  </div>
+
+  <footer>
+    <div class="footer-heading">Let's Connect &#128512 </div>
+    <ul class="list-non-bullet">
+      <li class="list-element-inline">
+        <a href="https://linkedin.com/in/shashank213" class="link-no-decoration">LinkedIn</a>
+      </li>
+      <li class="list-element-inline">
+        <a href="https://github.com/sks-21" class="link-no-decoration">Github</a>
+      </li>
+      <li class="list-element-inline">
+        <a href="https://www.instagram.com/_sks_21_/" class="link-no-decoration">Instagram</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
 </html>

@@ -1,6 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
+:root {
+  --primary-color: 
+  #5d4037;
+  /* --primary-color: #2e7d32; */
+  --secondary-color: #795548;
+  --off-white: #e8f5e9;
+  --gray: #424242;
+}
 
-main{
-    max-width: 600px ;
-    margin: auto ;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  overflow: hidden;
+  background-color: 
+  #efebe9;
+  /* color: white; */
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 2.5rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.nav-heading {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.div-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+}
+
+/* Button */
+button {
+  margin: 0rem 1.5rem;
+  font-size: 0.9em;
+  border-style: none;
+  padding: 1em 2em;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+
+  background-color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--gray);
+}
+
+button:active {
+  background-color: var(--primary-color);
+  transform: translateY(2px);
+  transition: 0.2s;
+  box-shadow: 2px 4px;
+}
+
+/* output */
+.div-output {
+  font-weight: bold;
+  padding: 1em;
+  /* margin: auto; */
+  border-radius: 8px;
+}
+
+/* Input */
+input {
+  font-size: 0.8rem;
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 8px;
+margin-left: 1rem;
+  cursor: pointer;
+}
+
+/* label */
+label {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1em 0em;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 0.2rem;
+  border-top-left-radius: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: black;
+  transition: 0.2s;
+  font-size: 1.2rem;
 }
