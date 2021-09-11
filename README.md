@@ -1,2 +1,3 @@
-# Pallindrome Birthday
- A vanillaJS app to check whether the entered birthdate is Pallindrome or not 
+# Palindrome Birthday
+Is your birthday pallindrome ?
+Don't waste your time guessing, check this app and find out!
